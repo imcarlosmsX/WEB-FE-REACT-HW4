@@ -3,7 +3,7 @@ import '../index.css';
 
 const Objectives = ({ objectives }) => {
   return (
-    <section className="p-6">
+    <section id='Objetivos' className="p-6">
       <h2 className="text-xl font-bold mb-4 ">Objetivos Estratégicos</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full table-auto border-collapse border border-gray-300">

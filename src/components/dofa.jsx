@@ -2,7 +2,9 @@ import React from 'react';
 
 const Diagnosis = ({ data }) => {
   return (
-    <section className="p-6 grid grid-cols-1 md:grid-cols-2 gap-4 text-justify">
+    <section id='Diagonostico' className="p-6">
+      <h2 className="text-xl font-bold mb-4">Diagnóstico</h2>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-4 text-justify'>
       {data.map((category) => (
         <div key={category.id} className="border p-4">
           <h3 className="font-bold text-xl mb-2">{category.type}</h3>
@@ -16,6 +18,8 @@ const Diagnosis = ({ data }) => {
           </ol>
         </div>
       ))}
+      </div>
+
     </section>
   );
 };

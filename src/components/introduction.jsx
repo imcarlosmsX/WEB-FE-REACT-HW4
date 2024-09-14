@@ -3,7 +3,7 @@ import '../index.css';
 
 const Introduction = () => {
   return (
-    <section className="p-6">
+    <section id='Introduccion' className="p-6">
       <h2 className="text-xl font-bold">Introducción</h2>
       <p className="mt-4 text-justify">
         En esta planeación estratégica, se presentan los elementos clave que guiarán el desarrollo y crecimiento de nuestro negocio especializado en la venta y ensamblaje de PC's gamers. Nuestro objetivo es ofrecer a los clientes no solo productos de alta calidad, sino también soluciones personalizadas que se adapten a sus necesidades específicas, permitiéndoles obtener el máximo rendimiento en su experiencia de juego.
