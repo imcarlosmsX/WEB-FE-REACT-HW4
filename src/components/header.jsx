@@ -3,10 +3,10 @@ import '../index.css';
 const Header = () => {
   return (
     <header className="relative text-white p-4 md:p-6 shadow-md">
-      <div className="absolute inset-0 bg-[url('src/assets/bg.jpg')] bg-cover"></div>
+      <div className="absolute inset-0 bg-[url('/assets/bg.jpg')] bg-cover"></div>
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center relative z-10">
-        <img src="src/assets/logo.jfif" alt="logo" className='w-[130px] h-auto mr-2.5 rounded-full'/>
+        <img src="assets/logo.jpg" alt="logo" className='w-[130px] h-auto mr-2.5 rounded-full'/>
         <h1 className="text-2xl md:text-3xl font-bold tracking-tight mb-4 md:mb-0">
           Planeación Estratégica
         </h1>
